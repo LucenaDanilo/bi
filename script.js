@@ -2,6 +2,7 @@ const fs = require('fs');
 const csvParser = require('csv-parser');
 const axios = require('axios');
 
+// const OPENAI_API_KEY = '';
 
 // Função para carregar e processar o CSV
 async function processCsv(filePath) {
